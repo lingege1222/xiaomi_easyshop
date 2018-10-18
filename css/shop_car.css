@@ -1,0 +1,425 @@
+/* 头部 */
+.nav{
+    margin: 0 auto;
+    width: 1263px;
+    height: 100px;
+    border-bottom: 2px solid #ff6700;
+}
+.nav img{
+    margin-top: 24px;
+    margin-left: 24px;
+    float: left;
+}
+.nav h2{
+    font-size:28px;
+    color: #424242;
+    float: left;
+    line-height: 100px;
+    margin-left: 30px;
+}
+.nav_h3{
+  font-size: 11px;
+  color:#757575;
+  float: left;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.nav p a{
+    display: block;
+    font-size: 15px;
+    float: right;
+    color: #757575;
+    line-height: 100px;
+    
+}
+.nav a:hover{
+    color: #ff6700;
+}
+.nav .sep{
+    display: block;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 100px;
+}
+.p_Right{
+    padding-right: 25px;
+}
+/* 购物车 */
+.main	
+{
+  position: relative;
+  overflow: hidden;
+  min-height: 503px;
+	width: 100%;
+	background: #f5f5f5;
+	padding-top: 38px;
+}
+.toubu{
+	height: 45px;
+	width: 1226px;
+	margin:0 auto;
+	background: #fff;
+	padding-top: 25px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.toubu div{
+	float: left;
+	font-size: 12px;
+	color: #000;
+
+}
+.zongGou{
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+    border: 1px solid #e0e0e0;
+    margin-left: 24px;
+    
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.move{
+	background-color: #fff;
+	color: #fff;
+}
+.active
+{
+	background-color: #ff6700;
+	color: white;
+}
+.col_img{
+	margin-left: 55px;
+}
+.col_name{
+	margin-left: 60px;
+}
+.col_price{
+	margin-left: 369px;
+}
+.col_num
+{
+	margin-left: 145px;
+}
+.col_total{
+	margin-left: 153px;
+}
+.col_action{
+	margin-left: 107px;
+}
+.shangPing
+{
+	width: 1200px;
+	margin:0 auto;
+	height: 86px;
+	background: #fff;
+	padding: 15px 26px 15px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.shangPing div{
+	float:left;
+	height: 86px;
+	line-height: 86px;
+}
+.shang_check
+{
+	width: 110px;
+}
+.Gou
+{
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+    border: 1px solid #e0e0e0;
+    margin-left: 24px;
+    
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.shang_img
+{
+	width: 120px;	
+	text-align: center;
+	
+}
+.shang_name
+{
+	width: 100px;
+	line-height: 86px;
+
+	
+}
+.shang_color
+{
+	width:280px;
+	line-height: 86px;
+}
+.shang_price
+{
+	width: 129px;
+padding-left: 30px;
+font-size: 13px;
+	
+}
+.shang_num
+{
+	width: 150px;
+	padding-top:25px
+}
+.shang_total
+{
+	width: 131px;
+	padding-left: 70px;
+	font-size: 13px;
+	color: #ff6700;
+}
+.shang_action a
+{
+  width: 11px;
+  height: 11px;
+  border-radius: 5px;
+	
+}
+.shang_action a:hover{
+  background: #f66000;
+  color:white;
+}
+#jiSuan
+{
+	height: 38px;
+	width: 148px;
+	border: 1px solid #e0e0e0;
+}
+#jiSuan span{
+	height: 38px;
+	line-height: 38px;
+	display: block;
+	float: left;
+}
+#shuLiang{
+	width: 68px;
+	color: #424242;
+	text-align: center;
+}
+.jia,.jian{
+	text-align: center;
+	width: 38px;
+	
+	cursor: pointer;
+	
+}
+/*结算*/
+.jieSuan{
+	width: 1226px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform:translate(-50%,0);
+	background: #fafafa;
+}
+.jiXu{
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	color: #757575;
+}
+#numberShap,#phoneShap{
+	color: #ff6700;
+}
+.heJi{
+	display: block;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	color: #ff6700;
+}
+#zongGong
+{
+	margin-top: 11px;
+	line-height: none;
+	font-size:22px ;
+}
+.dianJihe
+{
+	height: 50px;
+	width: 202px;
+	float: right;
+	display: block;
+	border: none;
+	background: #ff6700;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 54px;
+}
+/* 商品页 */
+.shop_con{
+    margin: 0 auto;
+    width: 1263px;
+    overflow: hidden;
+    min-height: 500px;
+    background: #f5f5f5;
+    padding-bottom: 60px;
+}
+.shop_con li{
+    width: 234px;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background:white;
+    float: left;
+    position: relative;
+}
+.shop_con dt{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.d1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.d1 a{
+    font-size: 14px;
+    color: rgb(8, 8, 8);
+}
+.d2{
+    margin-bottom: 10px;
+    color: #ff6700;
+    font-size: 12px;
+    text-align: center;
+}
+.d3{
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #757575;
+}
+.d3 a{
+    display: none;
+    position: absolute;
+    left: 57px;
+    top: 253px;
+    width: 120px;
+    border: 1px solid #ff6700;
+    background: #fff;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.d3 a:hover{
+    font-size: 12px;
+    color: #fff;
+    background:  #ff6700;
+}
+
+
+/* 页脚 */
+#footer_top {
+    margin:0px auto;
+    width: 1236px;
+    height: 270px;
+    background: #fff;
+    overflow: hidden;
+  }
+  #footer_top .top_f {
+    width: 1226px;
+    height: 25px;
+    padding: 27px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  #footer_top .top_f li {
+    width: 244px;
+    height: 25px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    float: left;
+  }
+  #footer_top .top_f li:last-child {
+    border: 0;
+  }
+  .top_f li a {
+    color: #666;
+    display: block;
+    position: relative;
+    font-size: 16px;
+  }
+  .top_f li a i {
+    position: absolute;
+    left: 50px;
+    top: 3px;
+  }
+  .top_f li:last-child a i {
+    left: 45px;
+  }
+  .top_f li a:hover {
+    color: #f66000;
+  }
+  .b_f {
+    width: 960px;
+    margin-top: 35px;
+    border-right: 1px solid #ccc;
+    height: 120px;
+    float: left;
+  }
+  .b_f li {
+    width: 160px;
+    float: left;
+    text-align: center;
+  }
+  .b_f li .b_fbox li {
+    width: 160px;
+  }
+  .b_f li .b_fbox li:first-child {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .b_fbox li a {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+  }
+  .b_fbox li a:hover {
+    color: #f66000;
+  }
+  .b_left {
+    width: 265px;
+    height: 120px;
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+  }
+  .b_left h2 {
+    font-size: 24px;
+    color: #f66000;
+  }
+  .b_left p {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+  }
+  .b_left span {
+    width: 120px;
+    height: 30px;
+    display: block;
+    border: 1px solid #f66000;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 10px auto;
+    color: #f66000;
+  }
+  

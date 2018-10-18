@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/shop_car.css">
+    <link rel="stylesheet" href="js/common/layer/mobile/need/layer.css">
+</head>
+
+<body>
+    <div class="nav">
+        <img src="images/logo_03.png" alt="">
+        <h2>我的购物车</h2>
+        <h3 class="nav_h3">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</h3>
+        <p>
+            <a href="register.html" class="p_Right">注册</a>
+        </p>
+        <span class="sep">|</span>
+        <p>
+            <a href="login.html">登录</a>
+        </p>
+    </div>
+    <!-- 购物车 -->
+    <div class="main">
+        <div class="toubu">
+            <div class="col_check">
+                <i class="zongGou move ">√</i>
+                全选
+            </div>
+            <div class="col_img">图片</div>
+            <div class="col_name">商品名称</div>
+            <div class="col_price">单价</div>
+            <div class="col_num">数量</div>
+            <div class="col_total">小计</div>
+            <div class="col_action">操作</div>
+        </div>
+        
+        <div class="jieSuan">
+            <span class="jiXu">继续购物
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            共 	<font id="numberShap">1</font> 件商品，已选择
+                <font id="phoneShap">1</font> 件
+            </span>
+            <button class="dianJihe">去结算</button>
+            <span class="heJi">合计：
+            <font id="zongGong">0</font>元
+            </span>
+        </div>
+    </div>
+    <!-- 商品页 -->
+    <div class="shop_con">
+        <ul>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_1.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_2.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_7.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_2.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_3.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_4.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_5.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_7.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_8.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_1.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_3.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_7.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_1.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_2.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_8.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_4.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_5.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_2.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_4.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+            <li class="shopli">
+                <dt>
+                    <img src="images/pms_1.jpg" alt="图标">
+                </dt>
+                <dd class="d1">
+                    <a href="#">红米6A 全网通版 3GB</a>
+                </dd>
+                <dd class="d2">299元</dd>
+                <dd class="d3">1097人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </li>
+
+        </ul>
+    </div>
+    <!-- 页脚 -->
+    <div id="footer_top">
+            <ul class="top_f">
+                <li>
+                    <a href="">预约维修服务
+                        <i class="iconfont icon-weixiu"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">7天无理由退货
+                        <i class="iconfont icon-sevenday"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">15天无理由换货
+                        <i class="iconfont icon-xiangqing-shiwutiantui"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">满150元包邮
+                        <i class="iconfont icon-lipin"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">520余家售后网点
+                        <i class="iconfont icon-dingwei"></i>
+                    </a>
+
+                </li>
+            </ul>
+            <ul class="b_f">
+                <li>
+                    <ul class="b_fbox">
+                        <li>帮助中心</li>
+                        <li>
+                            <a href="">账户管理</a>
+                        </li>
+                        <li>
+                            <a href="">购物指南</a>
+                        </li>
+                        <li>
+                            <a href="">订单操作</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="b_fbox">
+                        <li>服务支持</li>
+                        <li>
+                            <a href="">售后政策</a>
+                        </li>
+                        <li>
+                            <a href="">自助服务</a>
+                        </li>
+                        <li>
+                            <a href="">相关下载</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="b_fbox">
+                        <li>线下门店</li>
+                        <li>
+                            <a href="">小米之家</a>
+                        </li>
+                        <li>
+                            <a href="">服务网点</a>
+                        </li>
+                        <li>
+                            <a href="">授权体验店</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="b_fbox">
+                        <li>关于小米</li>
+                        <li>
+                            <a href="">小米之家</a>
+                        </li>
+                        <li>
+                            <a href="">服务网点</a>
+                        </li>
+                        <li>
+                            <a href="">授权体验店</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="b_fbox">
+                        <li>关注我们</li>
+                        <li>
+                            <a href="">小米之家</a>
+                        </li>
+                        <li>
+                            <a href="">服务网点</a>
+                        </li>
+                        <li>
+                            <a href="">授权体验店</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="b_fbox">
+                        <li>特色服务</li>
+                        <li>
+                            <a href="">小米之家</a>
+                        </li>
+                        <li>
+                            <a href="">服务网点</a>
+                        </li>
+                        <li>
+                            <a href="">授权体验店</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="b_left">
+                <h2>400-100-5678</h2>
+                <p>周一至周日8:00-18:00</p>
+                <p>(仅收市话费)</p>
+                <span>联系客服</span>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/shop_car.js"></script>
+        <script src="js/common/layer/layer.js"></script>
+        <script>
+            //移入移出
+            $(function(){
+                $('.shopli').mouseenter(function(){
+                    $('.d3>a').stop().show();
+                })
+            })
+            $(function(){
+                $('.shopli').mouseleave(function(){
+                    $('.d3>a').stop().hide();
+                })
+            })
+
+        </script>
+</body>
+
+</html>
